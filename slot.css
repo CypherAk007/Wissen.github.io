@@ -1,0 +1,80 @@
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+.booking-form-box
+{
+    max-width:350px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 0;
+}
+.radio-btn
+{
+    margin: 0 20px ;
+}
+
+.radio-btn .btn 
+{
+    margin: 20px 10px 20px 0;
+    box-shadow: none ;
+
+}
+.radio-btn .btn::after
+{
+    content:'';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #ced4da;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #ced4da;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn span
+{
+    color: #ced4da;
+    margin-right: 5px ;
+    font-size: 12px;
+
+}
+.booking-form
+{
+    padding: 0 20px 40px;
+
+}
+.booking-form label
+
+{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(255, 255, 255) ;
+
+}
+input::placeholder
+{
+    color: rgb(255, 255, 255) !important;
+
+}
+.input-grp
+{
+    width: 150px;
+    display: inline-block;
+    background: transparent;
+    color: rgb(0, 0, 0);
+
+}
+.form-control
+{
+    font-size: 12px;
+    border-radius: 0 !important;
+    color: rgb(255, 255, 255) !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    
+}
